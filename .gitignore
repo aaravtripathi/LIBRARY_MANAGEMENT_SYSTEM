@@ -1,0 +1,23 @@
+# Exclude heavy raw internship instruction PDFs and old archive backups
+1.pdf
+2.pdf
+3.pdf
+4.pdf
+LIBRARY.zip
+LMS_REPORT.pdf
+mpo.pdf
+mpo2.pdf
+
+# Exclude temporary system files and caches
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp
+*.log
+.gemini/
+.vscode/
+.idea/
+*.aux
+*.out
+*.toc
+*.log
