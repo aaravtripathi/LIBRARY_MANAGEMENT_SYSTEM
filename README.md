@@ -61,7 +61,7 @@ For system architects and evaluators inspecting server-side business logic, secu
 ## 📄 Comprehensive Technical Report & Documentation
 Included directly within this repository is the complete master technical report documenting the software development lifecycle, institutional feasibility studies, software maintenance Lehman's Laws economics, bug triage service SLAs, and empirical performance charts:
 
-* 📥 **Official PDF Master Report**: [`Library_Management_System_FullStack_Report.pdf`](./Library_Management_System_FullStack_Report.pdf) (Complete 53-Page Technical Memo with all embedded figures and system quantifications).
+* 📥 **Official PDF Master Report**: [`LMS_REPORT.pdf`](./LMS_REPORT.pdf) (Complete 53-Page Technical Memo with all embedded figures and system quantifications).
 
 ---
 
@@ -69,7 +69,7 @@ Included directly within this repository is the complete master technical report
 ```text
 LIBRARY_MANAGEMENT/
 ├── README.md                                                # Project architecture & executive documentation
-├── Library_Management_System_FullStack_Report.pdf           # Official 53-page engineering master report (PDF)
+├── LMS_REPORT.pdf                                           # Official 53-page engineering master report (PDF)
 ├── LIBRARY/                                                 # Decoupled Multi-Page Web Application codebase
 │   ├── index.html                                           # Secure authentication & sign-in gateway
 │   ├── dashboard.html                                       # Operational command center & real-time activity log
