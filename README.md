@@ -1,6 +1,6 @@
 # Library Management System (LMS)
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-aaravtripathi%2FLIBRARY__MANAGEMENT__SYSTEM-24292e?style=for-the-badge&logo=github)](https://github.com/aaravtripathi/LIBRARY_MANAGEMENT_SYSTEM.git)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-aaravtripathi%2FLIBRARY__MANAGEMENT__SYSTEM-24292e?style=for-the-badge&logo=github)](https://github.com/aaravtripathi/LIBRARY_MANAGEMENT_SYSTEM)
 [![Architecture](https://img.shields.io/badge/Architecture-Multi--Page_Web_%7C_ASP.NET_Core_RBAC-3b82f6?style=for-the-badge)](#)
 [![Performance](https://img.shields.io/badge/Performance-Zero--Allocation_Span%3CT%3E-10b981?style=for-the-badge)](#)
 [![Testing](https://img.shields.io/badge/Testing-xUnit_%2B_FluentAssertions-6366f1?style=for-the-badge)](#)
@@ -14,7 +14,7 @@ This repository adopts a disciplined **Decoupled Client-Server Architecture**, c
 ## 🏛️ Project & Author Details
 * **Author:** Aarav Tripathi
 * **Application Number:** `IN26012764`
-* **GitHub Link:** [https://github.com/aaravtripathi/LIBRARY_MANAGEMENT_SYSTEM.git](https://github.com/aaravtripathi/LIBRARY_MANAGEMENT_SYSTEM.git)
+* **GitHub Link:** [https://github.com/aaravtripathi/LIBRARY_MANAGEMENT_SYSTEM](https://github.com/aaravtripathi/LIBRARY_MANAGEMENT_SYSTEM)
 * **Subject Domain:** Advanced Software Engineering, Cloud Deployment & Backend Architecture
 * **Document Release:** Technical Engineering Report 2026-REV-B (Comprehensive Master Edition)
 
