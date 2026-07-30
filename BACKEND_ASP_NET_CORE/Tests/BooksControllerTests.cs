@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.EntityFrameworkCore;
 using Moq;
-using MPOnline.LibraryManagement.Controllers;
-using MPOnline.LibraryManagement.Data;
-using MPOnline.LibraryManagement.Models;
+using LibraryManagement.Controllers;
+using LibraryManagement.Data;
+using LibraryManagement.Models;
 using Xunit;
 
-namespace MPOnline.LibraryManagement.Tests
+namespace LibraryManagement.Tests
 {
     /// <summary>
     /// Master QA Automated Test Harness executing xUnit isolated unit tests and FluentAssertions readable assertions
@@ -98,7 +98,7 @@ namespace MPOnline.LibraryManagement.Tests
                 Title = "Enterprise Software Reliability and Systems Architecture",
                 Author = "Aarav Tripathi",
                 ISBN = "978-0987654321",
-                Publisher = "MPOnline Press",
+                Publisher = "Academic Tech Press",
                 PublishedDate = DateTime.UtcNow.Date,
                 ShelfLocation = "ADV-01"
             };

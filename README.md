@@ -1,22 +1,22 @@
-# MPOnline Enterprise Library Management System (LMS)
+# Library Management System (LMS)
 
-[![MPOnline Internship](https://img.shields.io/badge/MPOnline-Advanced_Software_Engineering-0052cc?style=for-the-badge)](https://mponline.gov.in)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-aaravtripathi%2FLIBRARY__MANAGEMENT-24292e?style=for-the-badge&logo=github)](https://github.com/aaravtripathi/LIBRARY_MANAGEMENT.git)
 [![Architecture](https://img.shields.io/badge/Architecture-Multi--Page_Web_%7C_ASP.NET_Core_RBAC-3b82f6?style=for-the-badge)](#)
 [![Performance](https://img.shields.io/badge/Performance-Zero--Allocation_Span%3CT%3E-10b981?style=for-the-badge)](#)
 [![Testing](https://img.shields.io/badge/Testing-xUnit_%2B_FluentAssertions-6366f1?style=for-the-badge)](#)
 
-A modern, high-performance, and reactive **Enterprise Library Management System (LMS)** engineered during the **Advanced Software Engineering & Development Internship [11A]** at **MPOnline Limited**. 
+A modern, high-performance, and reactive **Library Management System (LMS)** engineered by **Aarav Tripathi**.
 
-This repository adopts a disciplined **Decoupled Client-Server Architecture**, containing both a production-grade **Multi-Page Web Application Frontend** (tailored for AWS S3 static hosting) and an accompanying **ASP.NET Core 8 & Entity Framework Core Enterprise Backend** with automated xUnit testing suites and zero-allocation memory optimizations.
+This repository adopts a disciplined **Decoupled Client-Server Architecture**, containing both a production-grade **Multi-Page Web Application Frontend** (tailored for AWS S3 static hosting) and an accompanying **ASP.NET Core 8 & Entity Framework Core Backend** with automated xUnit testing suites and zero-allocation memory optimizations.
 
 ---
 
-## 🏛️ Internship & Author Details
-* **Author / Intern:** Aarav Tripathi
+## 🏛️ Project & Author Details
+* **Author:** Aarav Tripathi
 * **Application Number:** `IN26012764`
-* **Organization:** MPOnline Limited
+* **GitHub Link:** [https://github.com/aaravtripathi/LIBRARY_MANAGEMENT.git](https://github.com/aaravtripathi/LIBRARY_MANAGEMENT.git)
 * **Subject Domain:** Advanced Software Engineering, Cloud Deployment & Backend Architecture
-* **Document Release:** Enterprise Tech Memo 2026-REV-B (Comprehensive Master Edition)
+* **Document Release:** Technical Engineering Report 2026-REV-B (Comprehensive Master Edition)
 
 ---
 
@@ -25,13 +25,13 @@ This repository adopts a disciplined **Decoupled Client-Server Architecture**, c
 ### Option A: Zero-Setup Instant Browser Demo (Frontend UI)
 For immediate demonstration without needing Microsoft SQL Server, Visual Studio, or local web server engines, the decoupled HTML5 frontend includes an embedded JavaScript state storage engine (`app.js`) that emulates live search debouncing, catalog CRUD, theme memory, and modal borrowing directly in your browser:
 1. **Download ZIP**: Click **`Code -> Download ZIP`** on this GitHub repository and extract to your PC.
-2. **Launch Instantly**: Double-click **`LAUNCH_PORTAL.bat`** or **`index.html`** in the root folder to start immediately in your default browser!
+2. **Launch Instantly**: Open **`LIBRARY/index.html`** directly in your default web browser to start immediately!
 
 ### Option B: Full-Stack Enterprise Backend (.NET 8 & MS SQL Server)
 For system architects and evaluators inspecting server-side business logic, security authentication ledgers, and automated unit test assertions:
 1. Navigate to the **`BACKEND_ASP_NET_CORE/`** folder.
-2. Open **`MPOnline.LibraryManagement.csproj`** in Visual Studio 2022, JetBrains Rider, or VS Code.
-3. Run automated QA testing suites via CLI: `dotnet test BACKEND_ASP_NET_CORE/Tests/MPOnline.LibraryManagement.Tests.csproj`
+2. Open **`LibraryManagement.csproj`** in Visual Studio 2022, JetBrains Rider, or VS Code.
+3. Run automated QA testing suites via CLI: `dotnet test BACKEND_ASP_NET_CORE/Tests/LibraryManagement.Tests.csproj`
 4. Initialize database structures using the provided DDL schema script: `BACKEND_ASP_NET_CORE/Data/schema_init_seeding.sql`
 
 ---
@@ -61,21 +61,15 @@ For system architects and evaluators inspecting server-side business logic, secu
 ## 📄 Comprehensive Technical Report & Documentation
 Included directly within this repository is the complete master technical report documenting the software development lifecycle, institutional feasibility studies, software maintenance Lehman's Laws economics, bug triage service SLAs, and empirical performance charts:
 
-* 📥 **Official PDF Master Report**: [`LIBRARY_MANAGEMENT_SYSTEM_REPORT.pdf`](./LIBRARY_MANAGEMENT_SYSTEM_REPORT.pdf) (Complete 53-Page Executive Tech Memo with all embedded figures).
-* 📝 **Academic LaTeX Source Code**: [`MPOnline_Library_Management_System_Internship_Report.tex`](./MPOnline_Library_Management_System_Internship_Report.tex) (Fully reproducible academic code compatible with Overleaf and MiKTeX).
-* 📊 **Technical Assets**: The [`report_assets/`](./report_assets) directory contains all high-resolution architecture wireframes, empirical performance graphs, bug cost curves, and syntax-highlighted code plates used within the document.
+* 📥 **Official PDF Master Report**: [`Library_Management_System_FullStack_Report.pdf`](./Library_Management_System_FullStack_Report.pdf) (Complete 53-Page Technical Memo with all embedded figures and system quantifications).
 
 ---
 
 ## 📂 Master Repository Folder Hierarchy
 ```text
 LIBRARY_MANAGEMENT/
-├── LAUNCH_PORTAL.bat                                        # Windows double-click instant browser launcher
-├── UPLOAD_TO_GITHUB.bat                                     # Zero-error Git push execution script
-├── index.html                                               # Root entry point & automatic web portal redirector
 ├── README.md                                                # Project architecture & executive documentation
-├── LIBRARY_MANAGEMENT_SYSTEM_REPORT.pdf                      # Official 50+ page engineering master report (PDF)
-├── MPOnline_Library_Management_System_Internship_Report.tex # Master LaTeX academic source code (.tex)
+├── Library_Management_System_FullStack_Report.pdf           # Official 53-page engineering master report (PDF)
 ├── LIBRARY/                                                 # Decoupled Multi-Page Web Application codebase
 │   ├── index.html                                           # Secure authentication & sign-in gateway
 │   ├── dashboard.html                                       # Operational command center & real-time activity log
@@ -85,16 +79,15 @@ LIBRARY_MANAGEMENT/
 │   ├── history.html                                         # Chronological audit ledger for borrowed assets
 │   ├── styles.css                                           # Design system tokens, dark mode & responsiveness
 │   └── app.js                                               # Debounced filters, modals & localStorage sync engine
-├── BACKEND_ASP_NET_CORE/                                    # Full-Stack ASP.NET Core 8 MVC & EF Core Backend
-│   ├── MPOnline.LibraryManagement.csproj                    # .NET 8 Web SDK Project File with Identity/EF Core
-│   ├── Program.cs                                           # DI Registration, Identity RBAC, CORS & Middleware
-│   ├── appsettings.json                                     # SQL Server production connection strings & origins
-│   ├── Models/                                              # OOP Domain Entities (TPH Publications, BorrowRecord, Users)
-│   ├── Data/                                                # ApplicationDbContext & master schema_init_seeding.sql
-│   ├── Controllers/                                         # BooksController (Pagination, Span<T>) & AccountController
-│   └── Tests/                                               # Automated QA Suite using xUnit & FluentAssertions (UT-01..08)
-└── report_assets/                                           # High-resolution architectural plates & graph diagrams
+└── BACKEND_ASP_NET_CORE/                                    # Full-Stack ASP.NET Core 8 MVC & EF Core Backend
+    ├── LibraryManagement.csproj                             # .NET 8 Web SDK Project File with Identity/EF Core
+    ├── Program.cs                                           # DI Registration, Identity RBAC, CORS & Middleware
+    ├── appsettings.json                                     # SQL Server production connection strings & origins
+    ├── Models/                                              # OOP Domain Entities (TPH Publications, BorrowRecord, Users)
+    ├── Data/                                                # ApplicationDbContext & master schema_init_seeding.sql
+    ├── Controllers/                                         # BooksController (Pagination, Span<T>) & AccountController
+    └── Tests/                                               # Automated QA Suite using xUnit & FluentAssertions (UT-01..08)
 ```
 
 ---
-*© 2026 MPOnline Advanced Software Engineering Internship — Designed & Engineered by Aarav Tripathi.*
+*© 2026 Library Management System — Designed & Engineered by Aarav Tripathi. All rights reserved.*

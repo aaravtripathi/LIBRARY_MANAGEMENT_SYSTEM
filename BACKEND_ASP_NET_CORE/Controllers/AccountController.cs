@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MPOnline.LibraryManagement.Controllers
+namespace LibraryManagement.Controllers
 {
     /// <summary>
     /// Authentication gateway orchestrating ASP.NET Core Identity Service Managers (UserManager, SignInManager, RoleManager).

@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using MPOnline.LibraryManagement.Models;
+using LibraryManagement.Models;
 
-namespace MPOnline.LibraryManagement.Data
+namespace LibraryManagement.Data
 {
     /// <summary>
     /// Master database context inheriting from IdentityDbContext to integrate normalized security membership
@@ -57,7 +57,7 @@ namespace MPOnline.LibraryManagement.Data
             );
 
             builder.Entity<Student>().HasData(
-                new Student { RegistrationNumber = "IN26012764", FullName = "Aarav Tripathi", Email = "aarav.tripathi@mponline.in", Course = "Advanced Software Engineering Internship [11A]", PhoneNumber = "+91-9876543210", IsEligibleToBorrow = true }
+                new Student { RegistrationNumber = "IN26012764", FullName = "Aarav Tripathi", Email = "aarav.tripathi@github.com", Course = "Advanced Software Engineering Internship [11A]", PhoneNumber = "+91-9876543210", IsEligibleToBorrow = true }
             );
         }
     }

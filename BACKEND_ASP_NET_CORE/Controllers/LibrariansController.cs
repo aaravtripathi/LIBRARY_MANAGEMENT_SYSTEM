@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MPOnline.LibraryManagement.Data;
-using MPOnline.LibraryManagement.Models;
+using LibraryManagement.Data;
+using LibraryManagement.Models;
 
-namespace MPOnline.LibraryManagement.Controllers
+namespace LibraryManagement.Controllers
 {
     /// <summary>
     /// Staff Roster and Shift Supervision Controller mirroring librarians.html.

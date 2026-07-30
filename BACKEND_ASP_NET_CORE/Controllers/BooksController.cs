@@ -3,10 +3,10 @@ using System.Buffers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MPOnline.LibraryManagement.Data;
-using MPOnline.LibraryManagement.Models;
+using LibraryManagement.Data;
+using LibraryManagement.Models;
 
-namespace MPOnline.LibraryManagement.Controllers
+namespace LibraryManagement.Controllers
 {
     /// <summary>
     /// Master inventory controller implementing asynchronous SQL Server windowed pagination (OFFSET / FETCH NEXT),

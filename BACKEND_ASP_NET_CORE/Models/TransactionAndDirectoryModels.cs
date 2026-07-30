@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MPOnline.LibraryManagement.Models
+namespace LibraryManagement.Models
 {
     /// <summary>
     /// Chronological borrow ledger and audit trail recording book check-outs, return timestamps, and penalty evaluations.

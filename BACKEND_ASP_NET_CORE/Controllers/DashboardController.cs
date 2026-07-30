@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MPOnline.LibraryManagement.Data;
+using LibraryManagement.Data;
 
-namespace MPOnline.LibraryManagement.Controllers
+namespace LibraryManagement.Controllers
 {
     /// <summary>
     /// Operational Command Center Controller mirroring dashboard.html.

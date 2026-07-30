@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using MPOnline.LibraryManagement.Data;
+using LibraryManagement.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // 1. Dependency Injection Configuration & Database Context Setup
 // Utilizes Microsoft SQL Server in production environments and tests with Entity Framework Core ORM
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
-    ?? "Server=(localdb)\\mssqllocaldb;Database=MPOnline_LMS_ProductionDB;Trusted_Connection=True;";
+    ?? "Server=(localdb)\\mssqllocaldb;Database=LMS_ProductionDB;Trusted_Connection=True;";
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
@@ -29,7 +29,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => {
 // 3. Cross-Origin Resource Sharing (CORS) Configuration for AWS S3 Static Hosting
 // Enables regional AWS CloudFront and S3 bucket origins to interact securely with private cloud APIs
 var staticOrigin = builder.Configuration["CloudStorageConfiguration:StaticFrontendOrigin"] 
-    ?? "https://mponline-library-portal-2026.s3.ap-south-1.amazonaws.com";
+    ?? "https://lms-portal-2026.s3.ap-south-1.amazonaws.com";
 
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowS3StaticFrontend", policy => {

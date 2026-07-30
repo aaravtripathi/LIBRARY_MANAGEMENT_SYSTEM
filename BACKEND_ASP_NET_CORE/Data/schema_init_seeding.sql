@@ -1,14 +1,14 @@
 -- =========================================================================================
--- MPONLINE ADVANCED SOFTWARE ENGINEERING INTERNSHIP REPORT - MASTER DDL SCHEMA SCRIPT
+-- LMS ADVANCED SOFTWARE ENGINEERING INTERNSHIP REPORT - MASTER DDL SCHEMA SCRIPT
 -- System: Enterprise Library Management System (LMS)
 -- Database Engine: Microsoft SQL Server / Azure SQL Private Cloud Instance
 -- Author: Aarav Tripathi (IN26012764)
 -- =========================================================================================
 
-CREATE DATABASE [MPOnline_LMS_ProductionDB];
+CREATE DATABASE [LMS_ProductionDB];
 GO
 
-USE [MPOnline_LMS_ProductionDB];
+USE [LMS_ProductionDB];
 GO
 
 -- 1. PUBLICATIONS CONSOLIDATED TPH INHERITANCE TABLE
@@ -85,7 +85,7 @@ GO
 
 INSERT INTO [dbo].[Students] ([RegistrationNumber], [FullName], [Email], [Course], [PhoneNumber])
 VALUES
-('IN26012764', 'Aarav Tripathi', 'aarav.tripathi@mponline.in', 'Advanced Software Engineering And Development Internship [11A]', '+91-9876543210');
+('IN26012764', 'Aarav Tripathi', 'aarav.tripathi@github.com', 'Advanced Software Engineering And Development Internship [11A]', '+91-9876543210');
 GO
 
 PRINT 'Enterprise Library Management System Database & Schema successfully initialized!';

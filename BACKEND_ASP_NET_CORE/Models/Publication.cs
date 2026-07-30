@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MPOnline.LibraryManagement.Models
+namespace LibraryManagement.Models
 {
     /// <summary>
     /// Publication Types for Table-Per-Hierarchy (TPH) inheritance modeling in Entity Framework Core.

@@ -4,8 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>MPOnline.LibraryManagement</RootNamespace>
-    <Description>Enterprise Library Management System - MPOnline Advanced Software Engineering Internship [11A]</Description>
+    <RootNamespace>LibraryManagement</RootNamespace>
+    <Description>Enterprise Library Management System - LMS Advanced Software Engineering Internship [11A]</Description>
     <Authors>Aarav Tripathi (IN26012764)</Authors>
   </PropertyGroup>
 
