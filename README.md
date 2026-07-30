@@ -13,10 +13,8 @@ This repository adopts a disciplined **Decoupled Client-Server Architecture**, c
 
 ## 🏛️ Project & Author Details
 * **Author:** Aarav Tripathi
-* **Application Number:** `IN26012764`
 * **GitHub Link:** [https://github.com/aaravtripathi/LIBRARY_MANAGEMENT_SYSTEM](https://github.com/aaravtripathi/LIBRARY_MANAGEMENT_SYSTEM)
 * **Subject Domain:** Advanced Software Engineering, Cloud Deployment & Backend Architecture
-* **Document Release:** Technical Engineering Report 2026-REV-B (Comprehensive Master Edition)
 
 ---
 
